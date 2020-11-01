@@ -62,11 +62,8 @@
 // --------------------------------------+------------------------------------------+-------+----------------------------------------------------------------
 //
 // Wi-Fi connection settings:
-const char* ssid      = "***"; // regular wi-fi host
-const char* password  = "***"; // regular wi-fi password
-const char* ssid2     = "***"; // alternative wi-fi host (when ButtonC is held at startup)
-const char* password2 = "***"; // alternative wi-fi password (when ButtonC is held at startup)
-//
+#include <secrets.h>
+
 // Time Zone: modify for your local timezone here
 //TimeChangeRule summer = {"AEDT", First, Sun, Oct, 2, 660};        // Australia Eastern Time Zone (Sydney, Melbourne)
 //TimeChangeRule standard = {"AEST", First, Sun, Apr, 3, 600};
