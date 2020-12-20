@@ -62,7 +62,7 @@
 // --------------------------------------+------------------------------------------+-------+----------------------------------------------------------------
 //
 // Wi-Fi connection settings:
-#include <secrets.h>
+#include "secrets.h"
 
 // Time Zone: modify for your local timezone here
 //TimeChangeRule summer = {"AEDT", First, Sun, Oct, 2, 660};        // Australia Eastern Time Zone (Sydney, Melbourne)
