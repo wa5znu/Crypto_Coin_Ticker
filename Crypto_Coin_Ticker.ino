@@ -73,14 +73,14 @@
 //TimeChangeRule standard = {"EET ", Last, Sun, Oct, 4, 120};
 //TimeChangeRule summer = {"CEST", Last, Sun, Mar, 2, 120};         // Central European Time Zone (Frankfurt, Paris)
 //TimeChangeRule standard = {"CET ", Last, Sun, Oct, 3, 60};
-TimeChangeRule summer = {"EDT", Second, Sun, Mar, 2, -240};     // US Eastern Time Zone (New York, Detroit)
-TimeChangeRule standard = {"EST", First, Sun, Nov, 2, -300};
+//TimeChangeRule summer = {"EDT", Second, Sun, Mar, 2, -240};     // US Eastern Time Zone (New York, Detroit)
+//TimeChangeRule standard = {"EST", First, Sun, Nov, 2, -300};
 //TimeChangeRule summer = {"CDT", Second, dowSunday, Mar, 2, -300}; // US Central Time Zone (Chicago, Houston)
 //TimeChangeRule standard = {"CST", First, dowSunday, Nov, 2, -360};
 //TimeChangeRule summer = {"MDT", Second, dowSunday, Mar, 2, -360}; // US Mountain Time Zone (Denver, Salt Lake City)
 //TimeChangeRule standard = {"MST", First, dowSunday, Nov, 2, -420};
-//TimeChangeRule summer = {"PDT", Second, dowSunday, Mar, 2, -420}  // US Pacific Time Zone (Las Vegas, Los Angeles);
-//TimeChangeRule standard = {"PST", First, dowSunday, Nov, 2, -480};
+TimeChangeRule summer = {"PDT", Second, dowSunday, Mar, 2, -420};  // US Pacific Time Zone (Las Vegas, Los Angeles);
+TimeChangeRule standard = {"PST", First, dowSunday, Nov, 2, -480};
 //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 byte pairs = 8;       // default: 8, total numbers of currency pairs, max 255
